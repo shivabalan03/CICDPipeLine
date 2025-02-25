@@ -19,6 +19,8 @@ jobs:
     - uses: actions/checkout@v4
     - name: Test Print
       run: echo "${{ github.workspace }}"
+    - name: List files in the repository
+      run: ls ${{ github.workspace }}
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
