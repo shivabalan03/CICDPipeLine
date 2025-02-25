@@ -1,0 +1,6 @@
+@CICDPipeLineCheck_HostAddress = http://localhost:5012
+
+GET {{CICDPipeLineCheck_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

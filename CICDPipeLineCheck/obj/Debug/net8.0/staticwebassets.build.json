@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jzWHfRYJo7+Ts3QwLCXG4ASmrMBnCEpuaSoyMmV0OQ0=",
+  "Source": "CICDPipeLineCheck",
+  "BasePath": "_content/CICDPipeLineCheck",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
