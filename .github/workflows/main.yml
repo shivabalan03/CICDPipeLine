@@ -18,7 +18,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: List files in the repository
-      run: ls "/home/runner/work/CICDPipeLine"
+      run: ls "/home/runner/work/CICDPipeLine/CICDPipeLine"
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
