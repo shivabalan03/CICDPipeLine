@@ -27,7 +27,7 @@ jobs:
         dotnet-version: 8.0.x
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: ${{ github.workspace }}/CICDPipeLineCheck
+      working-directory: "/home/runner/work/CICDPipeLine/CICDPipeLineCheck"
     - name: Build
       run: dotnet build --no-restore
     - name: Test
