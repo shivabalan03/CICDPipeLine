@@ -20,7 +20,7 @@ jobs:
     - name: Test Print
       run: echo "${{ github.workspace }}"
     - name: List files in the repository
-      run: ls ${{ github.workspace }}
+      run: ls "/home/runner/work/CICDPipeLine/CICDPipeLineCheck"
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
